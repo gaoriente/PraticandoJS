@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>parentNode</title>
+</head>
+<body>
+
+	<div id="linux">
+
+		<div class="ubuntu">
+			ubuntu
+			<div class="elementaryos">elementary 05</div>
+		</div>
+		<div class="devian">Debian</div>
+		
+	</div>
+
+
+	<script>
+		
+		console.log(
+			document.querySelector(".elementaryos").parentNode.parentNode
+		)
+
+
+	</script>
+
+</body>
+</html>
